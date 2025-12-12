@@ -92,7 +92,7 @@
 
 #### 1. 克隆项目
 ```bash
-git clone <项目地址>
+git clone https://github.com/siYuanJun/pressure-test-platform.git
 cd pressure-test-platform
 ```
 
