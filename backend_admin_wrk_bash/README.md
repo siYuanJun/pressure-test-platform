@@ -166,16 +166,12 @@ brew install bc  # macOS
 ```bash
 # 内网测试目标URL列表（格式：名称,URL）
 INTRANET_TARGETS=(
-  "首页,http://localhost:9042/"
-  "API,http://localhost:9042/api/v1/web/column/list/0?debug=true&limit=12"
-  "图片,http://localhost:9042/uploads/images/banner/20251119/691d8e0363f89.png"
+  "首页,https://www.example.com/zh/"
 )
 
 # 外网测试目标URL列表（格式：名称,URL）
 INTERNET_TARGETS=(
   "首页,https://www.example.com/zh/"
-  "API,https://www.example.com/api/v1/web/home_banner?lang=zh&token=&debug=true"
-  "图片,https://www.example.com/uploads/images/banner/20251119/691d8e0363f89.png"
 )
 
 # 线程数（模拟的用户数）
@@ -198,8 +194,6 @@ DURATION="5s"
 ```bash
 INTRANET_TARGETS=(
   "首页,http://内部服务器IP/"
-  "API接口,http://内部服务器IP/api/endpoint"
-  "静态资源,http://内部服务器IP/static/resource.jpg"
 )
 ```
 
@@ -209,8 +203,6 @@ INTRANET_TARGETS=(
 ```bash
 INTERNET_TARGETS=(
   "首页,https://your-website.com/"
-  "API接口,https://your-website.com/api/endpoint"
-  "静态资源,https://your-website.com/static/resource.jpg"
 )
 ```
 
@@ -235,11 +227,9 @@ INTERNET_TARGETS=(
 # 高负载测试配置示例
 INTRANET_TARGETS=(
   "首页,https://example.com/"
-  "核心API,https://example.com/api/v1/important"
 )
 INTERNET_TARGETS=(
   "首页,https://www.your-website.com/"
-  "核心API,https://www.your-website.com/api/v1/important"
 )
 THREADS=20
 CONNECTIONS_LIST=(100 200 400 800 1600)
@@ -416,16 +406,12 @@ pressure-test-platform/reports/YYYYMMDD/  # YYYYMMDD为当前日期
 ```bash
 # 内网测试目标URL列表
 INTRANET_TARGETS=(
-  "首页,http://172.20.0.9/"
-  "API,http://172.20.0.9/api/test"
-  "图片,http://172.20.0.9/upload/test.jpg"
+  "首页,https://example.com/"
 )
 
 # 外网测试目标URL列表
 INTERNET_TARGETS=(
   "首页,https://example.com/"
-  "API,https://example.com/api/test"
-  "图片,https://example.com/upload/test.jpg"
 )
 
 # 通用压测参数
@@ -444,8 +430,6 @@ DURATION="60s"
 ```bash
 INTRANET_TARGETS=(
   "首页,http://内部服务器IP/"
-  "API接口,http://内部服务器IP/api/endpoint"
-  "静态资源,http://内部服务器IP/static/resource.jpg"
 )
 ```
 
@@ -481,11 +465,9 @@ INTERNET_TARGETS=(
 # 高负载测试配置示例
 INTRANET_TARGETS=(
   "首页,https://example.com/"
-  "核心API,https://example.com/api/v1/important"
 )
 INTERNET_TARGETS=(
-  "首页,https://www.your-website.com/"
-  "核心API,https://www.your-website.com/api/v1/important"
+  "首页,https://example.com/"
 )
 THREADS=20
 CONNECTIONS_LIST=(100 200 400 800 1600)
