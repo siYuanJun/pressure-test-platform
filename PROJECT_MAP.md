@@ -8,7 +8,7 @@
 ```
 pressure-test-platform/
 ├── README.md                    # 项目总览、环境要求、启动命令
-├── LICENSE                      # 项目许可证文件，明确学习使用许可协议，禁止商业用途
+├── LICENSE                      # 项目许可证文件，采用MIT License，允许自由使用、复制、修改和分发
 ├── STATUS.md                    # 项目进度看板，记录各模块完成度与阻塞项
 ├── CHANGELOG.md                 # 功能变更日志，记录新增/修复/调整内容
 ├── PROJECT_MAP.md               # 项目结构心智图，快速定位文件功能

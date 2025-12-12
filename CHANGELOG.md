@@ -1,4 +1,9 @@
 # 压测平台 - 变更日志
+## 0.27.0
+
+### Changed
+- 许可证文档更新：更新了学习指南.md、压测平台介绍.md、PROJECT_MAP.md、README.md和STATUS.md中的许可证描述，统一为MIT License
+
 ## 0.26.0
 
 ### Changed
