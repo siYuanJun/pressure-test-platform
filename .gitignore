@@ -1,0 +1,6 @@
+*.csv
+error_logs*
+*.tmp
+logs
+*.log
+*.zip

@@ -1,0 +1,15 @@
+export default {
+  'menu.login': '登录',
+  'menu.welcome': '欢迎',
+  'menu.users': '用户管理',
+  'menu.apply': '压测申请审核',
+  'menu.task': '任务管理',
+  'menu.reports': '报告管理',
+  'login.title': '压测平台管理后台',
+  'login.username': '用户名或邮箱',
+  'login.password': '密码',
+  'login.submit': '登录',
+  'login.remember': '记住我',
+  'login.forgot': '忘记密码？',
+  'welcome.tip': '请选择左侧菜单开始操作',
+};

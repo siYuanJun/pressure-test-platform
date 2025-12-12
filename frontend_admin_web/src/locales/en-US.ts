@@ -1,0 +1,15 @@
+export default {
+  'menu.login': 'Login',
+  'menu.welcome': 'Welcome',
+  'menu.users': 'Users',
+  'menu.apply': 'Apply Audit',
+  'menu.task': 'Tasks',
+  'menu.reports': 'Reports',
+  'login.title': 'Performance Test Admin',
+  'login.username': 'Username or Email',
+  'login.password': 'Password',
+  'login.submit': 'Sign In',
+  'login.remember': 'Remember me',
+  'login.forgot': 'Forgot password?',
+  'welcome.tip': 'Choose a menu item to start.',
+};

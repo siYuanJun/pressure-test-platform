@@ -1,0 +1,10 @@
+*.csv
+error_logs*
+*.tmp
+reports
+logs
+*.log
+*.zip
+python/venv
+python/__pycache__
+data

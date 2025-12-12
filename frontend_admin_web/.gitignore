@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# production
+dist/
+
+# misc
+.DS_Store
+*.log
+
+# local env
+.env*
+
+# umi
+.umi
+.umi-production
+.umi-test
+tmp/
+node_modules
+
+
