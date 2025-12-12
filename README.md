@@ -226,6 +226,7 @@ pressure-test-platform/
 - 社区讨论: [GitHub Issues](https://github.com/siYuanJun/pressure-test-platform/issues)
 - GITHUB 仓库: [https://github.com/siYuanJun/pressure-test-platform](https://github.com/siYuanJun/pressure-test-platform)
 - 码云仓库: [https://gitee.com/siYuanJun/pressure-test-platform](https://gitee.com/siYuanJun/pressure-test-platform)
+- 掘金：[@三至二十四](https://juejin.cn/user/4441682708016328)
 
 ## 致谢
 
