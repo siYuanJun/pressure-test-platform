@@ -85,6 +85,7 @@ pressure-test-platform/
 │   └── tsconfig.json            # TypeScript配置
 ├── prompt/                      # AI开发提示词
 │   └── 全栈工程师.md            # AI开发提示词，包含项目架构与开发要求
+│   └── ppt_tech_analysis_prompt.md # PPT技术分析演讲会的prompt工程文件，覆盖项目全流程、技术特征、解决的问题及TraeAI的具体使用和帮助
 ├── deploy_docs/                 # Docker部署配置与文档（待实现）
 └── frontend_admin_web/src/pages/ # 管理后台页面（任务审批、报告管理，待实现）
 ```

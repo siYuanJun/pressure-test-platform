@@ -1,4 +1,9 @@
 # 压测平台 - 变更日志
+## 0.29.0
+
+### Added
+- prompt/ppt_tech_analysis_prompt.md：创建PPT技术分析演讲会的prompt工程文件，覆盖项目全流程、技术特征、解决的问题及TraeAI的具体使用和帮助
+
 ## 0.28.0
 
 ### Added
